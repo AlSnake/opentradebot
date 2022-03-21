@@ -6,4 +6,11 @@ export enum URI {
 
 export enum Endpoint {
 	EXCHANGE_INFO = 'fapi/v1/exchangeInfo',
+	SYMBOL_PRICE_TICKER = 'fapi/v1/ticker/bookTicker',
+	KLINE_DATA = 'fapi/v1/klines',
+}
+
+export enum Network {
+	MAINNET,
+	TESTNET,
 }
